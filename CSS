@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b9e7fe;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ img{
+    width: 300px;
+}
+
+form{
+    width: 100%;
+    background-color: aquamarine;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(red, green, blue, 0.3);
+}
+form select{
+    background-color: transparent;
+    width: 60%;
+    border-radius: 5px;
+    color: #faa307;
+    cursor: pointer;
+
+}
+
+label{
+    color: #0717fa;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2{
+    color: #0717fa;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+p{
+    color: #0717fa;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.word{
+    color: #fa072b;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.container{
+    min-width: 500px;
+    padding: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+
+
+}
+input{
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid #3a47f4;
+    width: 60%;
+    margin: 10px;
+    background-color: transparent;
+    color: #0717fa;
+}
+
+.score-container{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.Score{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5b915;
+}
+.Time{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5b915;
+}
+
+.end-game-container{
+    background-color: aqua;
+    min-width: 500px;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.play-again-btn{
+    background-color: #fa072b;
+    border-radius: 5px;
+    border: 1px solid #a7c5e3;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+.over{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
